@@ -359,3 +359,39 @@ h3 {
     background: black;
     z-index: 2;
 }
+
+.gr-img:hover {
+    transform: scale(1.005);
+    background: black;
+    z-index: 2;
+}
+
+h4 {
+    font-size: 15px;
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+.gr2-img {
+    width: 300px;
+    height: 350px;
+    box-shadow: 10px 10px 5px 0px;
+    border-radius: 10px;
+}
+
+.gr2-img:hover {
+    transform: scale(1.01);
+    background: black;
+    z-index: 2;
+}
+
+.gr3-img {
+    box-shadow: 10px 10px 5px 0px;
+    border-radius: 10px;
+}
+
+.gr3-img:hover {
+    background: black;
+    z-index: 2;
+}
+
