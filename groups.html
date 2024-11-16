@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COGMERS Groups</title>
+    <meta name="description" content="Discover the worship services and other offerings of Cogmers Church of God Seventh Day.">
+    <title>Our Groups - Cogmers Church of God Seventh Day</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>COGMERS Groups</h1>
-        <div class="menu" onclick="toggleMenu()">☰</div>
-        <nav id="nav" class="hidden">
-            <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="doctrines.html">Our 40 Doctrines</a></li>
-                <li><a href="verse_of_week.html">Verse of the Week</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="groups.html">Groups</a></li>
-            </ul>
+        <nav>
+            <!-- Hamburger Menu -->
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Off-Screen Menu (Initially hidden) -->
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="groups.html">Groups</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2>Our Groups</h2>
+    
+
+    <section class="services">
+        <h1>Our Groups</h1>
+        <p>At Cogmers, we have many groups for our members based on their respective ages.</p>
+        <h2>These groups include;</h2>
+
         <div class="group-container">
             <div class="group">
-                <img src="path/to/cogmea.jpg" alt="COGMEA - Married Men" class="group-image">
+                <img class="gr-img" src="img/z1.jpg" alt="COGMEA - Married Men" class="group-image">
                 <h3>COGMEA</h3>
                 <p>Married Men</p>
                 <a href="cogmea.html" class="learn-more">Learn More</a>
             </div>
             <div class="group">
-                <img src="path/to/mewak.jpg" alt="MEWAK - Married Women" class="group-image">
+                <img class="gr-img" src="img/ss.jpg" alt="MEWAK - Married Women" class="group-image">
                 <h3>MEWAK</h3>
                 <p>Married Women</p>
                 <a href="mewak.html" class="learn-more">Learn More</a>
@@ -56,26 +69,38 @@
                 <a href="children.html" class="learn-more">Learn More</a>
             </div>
         </div>
-    </main>
+        <h2>Other groups...</h2>
+        <div class="group">
+                <img src="path/to/clergy.jpg" alt="Children" class="group-image">
+                <h3>The Clergy</h3>
+                <p>The Pastor, Church Elder and the Deacons.</p>
+                <a href="clergy.html" class="learn-more">Learn More</a>
+            </div>
+    </section>
+
     <footer>
-        <p>Follow us on:</p>
-        <div class="social-media">
-            <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/facebook-logo.png" alt="Facebook" class="social-logo">
-            </a>
-            <a href="https://twitter.com/YourProfile" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/twitter-logo.png" alt="Twitter" class="social-logo">
-            </a>
-            <a href="https://www.instagram.com/YourProfile" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/instagram-logo.png" alt="Instagram" class="social-logo">
-            </a>
-            <a href="https://www.youtube.com/channel/YourChannel" target="_blank" rel="noopener noreferrer">
-                <img src="path/to/youtube-logo.png" alt="YouTube" class="social-logo">
-            </a>
+        <div class="footer-container">
+            <div class="footer-section">
+               
+            <div class="footer-section">
+                <h3>CHURCH OF GOD SEVENTH DAY</h3>
+                <p>We are Messianic Synagogue, believing Yahshuah is the Messiah (John 4:22-26).</p>
+                <ul class="contact-info">
+                    <li><span class="icon">📞</span> +254-700-000-000</li>
+                    <li><span class="icon">📧</span> info@kiambucogmers.or.ke</li>
+                    <li><span class="icon">🌐</span> COGMERs Messianic Congregation</li>
+                    <li><span class="icon">📍</span> Kiambu Kenya.</li>
+                </ul>
+            </div>
         </div>
-        <p>&copy; 2024 COGMERS. Website created and maintained by COGMERS Kiambu Media Team.</p>
-        <p><a href="privacy_policy.html">Privacy Policy</a></p>
+        <footer>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 www.cogmerskiambu.org. All rights reserved.</p>
+            <p>Developed & maintained by <a href="#"> Kiambu COG Media Team</a>.</p>
+        </div>
+        </footer>
     </footer>
-    <div class="watermark">COGMERs Kiambu</div>
+    <script src="script.js" defer></script>
 </body>
 </html>
+
