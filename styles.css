@@ -11,6 +11,7 @@ body {
     background-image: url(img/w1\ \(7\).jpg);;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 header {
@@ -277,8 +278,9 @@ footer {
     flex: 1;
     min-width: 200px;
     margin: 10px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
+    font-weight: 0;
     
 }
 
@@ -320,17 +322,21 @@ footer {
 }
 
 .img-aa {
-    width: 300px;
-    height: 300px;
     align-self: flex-end;
-    border-radius: 56% 44% 73% 27% / 27% 73% 44% 56%;
     transition: border-radius 500ms ease-in-out;
     grid-area: image;
-    box-shadow: #333;
+    box-shadow: 10px 10px 5px 0px;
+    border-radius: 10px;
+    width: 280px;
+    height: 200px;
+
+
 }
 
 .img-aa:hover {
-    border-radius: 79% 21% 29% 71% / 31% 74% 26% 79%;
+    z-index: 2;
+    background: black;
+    transform: scale(1.01);
 }
 
 h3 {
@@ -344,6 +350,7 @@ h3 {
     border-radius: 10px;
     width: 360px;
     height: 200px;
+    box-shadow: 10px 10px 5px 0px;
     
 }
 
