@@ -339,3 +339,16 @@ h3 {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.gr-img {
+    border-radius: 10px;
+    width: 360px;
+    height: 200px;
+    
+}
+
+.gr-img:hover {
+    transform: scale(1.01);
+    background: black;
+    z-index: 2;
+}
